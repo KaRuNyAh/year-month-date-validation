@@ -1,0 +1,24 @@
+public class Main{
+    public static void main(String args[]){
+        int year,date,month;
+        year=1999+1;
+        month=12;
+        date=32-1;
+        if(year>1999&&year<2023){
+            if(month>0&&month<13){
+                if(date>0&&date<32){
+                    System.out.println(date+"/"+month+"/"+year);
+                }
+                else{
+                    System.out.println("invalid date");
+                }
+            }
+            else{
+                System.out.println("Invalid month");
+            }
+        }
+        else{
+            System.out.println("Invalid enter between 1999 to 2023");
+        }
+    }
+}
